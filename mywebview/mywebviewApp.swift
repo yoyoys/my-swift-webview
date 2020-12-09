@@ -11,7 +11,9 @@ import SwiftUI
 struct mywebviewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WebView(request: URLRequest(url: URL(string: "https://google.com")!))
+//                .edgesIgnoringSafeArea(.all)
+                .ignoresSafeArea(.all, edges: .all)
         }
     }
 }

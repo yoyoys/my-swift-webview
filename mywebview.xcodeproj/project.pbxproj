@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B6515C52580C5E20099EB32 /* mywebviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6515C42580C5E20099EB32 /* mywebviewApp.swift */; };
-		1B6515C72580C5E20099EB32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6515C62580C5E20099EB32 /* ContentView.swift */; };
+		1B6515C72580C5E20099EB32 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6515C62580C5E20099EB32 /* WebView.swift */; };
 		1B6515C92580C5E30099EB32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6515C82580C5E30099EB32 /* Assets.xcassets */; };
 		1B6515CC2580C5E30099EB32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6515CB2580C5E30099EB32 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		1B6515C12580C5E20099EB32 /* mywebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mywebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6515C42580C5E20099EB32 /* mywebviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mywebviewApp.swift; sourceTree = "<group>"; };
-		1B6515C62580C5E20099EB32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B6515C62580C5E20099EB32 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		1B6515C82580C5E30099EB32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B6515CB2580C5E30099EB32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B6515CD2580C5E30099EB32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				1B6515C42580C5E20099EB32 /* mywebviewApp.swift */,
-				1B6515C62580C5E20099EB32 /* ContentView.swift */,
+				1B6515C62580C5E20099EB32 /* WebView.swift */,
 				1B6515C82580C5E30099EB32 /* Assets.xcassets */,
 				1B6515CD2580C5E30099EB32 /* Info.plist */,
 				1B6515CA2580C5E30099EB32 /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B6515C72580C5E20099EB32 /* ContentView.swift in Sources */,
+				1B6515C72580C5E20099EB32 /* WebView.swift in Sources */,
 				1B6515C52580C5E20099EB32 /* mywebviewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
